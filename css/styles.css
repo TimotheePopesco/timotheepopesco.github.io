@@ -7672,10 +7672,12 @@ textarea.form-control-lg {
   text-align: right !important;
 }
 
+.text-justify {
+  text-align: justify !important;
+}
 .text-center {
   text-align: center !important;
 }
-
 .text-decoration-none {
   text-decoration: none !important;
 }
@@ -11513,55 +11515,60 @@ html {
 
 @media (min-width: 992px) {
   .competences-section h2{
-    margin-top: 100px;
+    margin-top: 15vh;
+    padding-top: 5vh;
   }
   .competences {
-    padding-top: 5%;
-    padding-left: 40%;
+    padding-top: 2vh;
+    text-align: center;
     min-height: 50vh;
+    width: 100%;
   }
   .competences .mySlides {
     display: none;
   }
+  .mySlides{
+    margin: 0;
+    text-align: center;
+  }
   .competences .imag {
-    width: 25%;
+    width: 15%;
   }
   .competences .prev, .competences .next {
     cursor: pointer;
     top: 50%;
-    width: auto;
-    padding: 16px;
+    width: 10%;
+    padding: 2%;
     color: #980a0a;
     font-size: 48px;
     text-decoration: none;
     transition: 0.6s ease;
     border-radius: 3px;
-    margin: 5% 0;
+    padding:  5% 0;
   }
   .competences .prev:hover, .competences .next:hover {
     background-color: rgba(136, 136, 136, 0.8);
   }
   .competences .text {
-    font-size: 20px;
-    width: 100%;
+    font-size: 1.25rem;
+    width: 60%;
     text-align: justify;
-    margin-left: -32%;
-    margin-top: 5%;
+    margin-left: 20%;
+    margin-top: 1vh;
   }
   .competences .points {
-    margin-left: 8%;
-    margin-top: 5%;
+    margin-top: 5vh;
   }
   .competences .dot {
     cursor: pointer;
-    height: 24px;
-    width: 24px;
+    height: 20px;
+    width: 20px;
     margin: 0 2px;
     background-color: #999999;
-    border-radius: 50%;
+    border-radius: 20px;
     display: inline-block;
     transition: background-color 0.6s ease;
-    margin-bottom: 20vh;
+    margin-bottom: 5vh;
   }
   .competences .active, .competences .dot:hover {
     background-color: #980a0a;
@@ -11571,56 +11578,70 @@ html {
     animation-duration: 1.5s;
   }
   }
+
+
+
   @media screen and (max-width: 725px) {
     .competences-section h2{
-      margin-top: 50px;
+      margin-top: 5vh;
       
     }
-
     .competences {
-      padding-top: 5vh;
-      padding-left: 15%;
-      min-height: 80vh;
-      margin-left: 20%;
-      margin-right: 15%;
+      padding-top: 2vh;
+      text-align: center;
+      min-height: 50vh;
+      width: 100%;
     }
     .competences .imag {
-      width: 60%;
+      width: 50%;
+    }
+    .mySlides{
+      margin: 0;
+      text-align: center;
     }
     .competences .text {
-      font-size: 18px;
-      width: 100%;
+      font-size: 1.25rem;
+      width: 80%;
       text-align: justify;
-      margin-left: -5%;
-      margin-top: 5%;
+      margin-left: 10%;
+      margin-top: 1vh;
     }
     .competences .points {
       margin-left: 20%;
-      margin-top: 5%;
+      margin-top: 0;
     }
     .competences .dot {
       margin-bottom: 0;
     }
   }
-  @media screen and (max-width: 1030px) and (min-width: 725px) {
+  @media screen and (max-width: 992px) and (min-width: 725px) {
+    .competences-section h2{
+      margin-top: 5vh;
+      
+    }
     .competences {
-      padding-top: 5vh;
-      padding-left: 30%;
-      min-height: 60vh;
+      padding-top: 2vh;
+      text-align: center;
+      min-height: 50vh;
+      width: 100%;
+    }
+    .mySlides{
+      margin: 0;
+      text-align: center;
     }
     .competences .imag {
-      width: 40%;
+      width: 35%;
     }
     .competences .text {
-      font-size: 24px;
-      width: 100%;
+      font-size: 1.25rem;
+      width: 80%;
       text-align: justify;
-      margin-left: -20%;
-      margin-top: 5%;
+      margin-left: 10%;
+      margin-top: 1vh;
     }
     .competences .points {
       margin-left: 10%;
-      margin-top: 5%;
+      margin-top: 0;
     }
     .competences .dot {
       margin-bottom: 0;

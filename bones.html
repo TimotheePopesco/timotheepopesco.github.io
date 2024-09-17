@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+              
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="my portfolio after 3years of development" />
+        <meta name="author" content="Timothée Popesco" />
+        <title>Timothee Popesco - Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/smalllogo.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Timothee Popesco</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html#competences">Competences</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html#about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="align-items-center">
+
+            <!-- Masthead Subheading-->
+        
+            <p class="masthead-subheading">Looking for a final year internship - 5 to 6 months (1 February - 31 August), in applied R&D or Engineering, ideally as part of a multidisciplinary team.</p>
+        </div>
+    </header>
+
+    <div class="mx-5 px-5 py-4">
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">3D bone scaffold</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fa-solid fa-bone"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <br><br>
+        <!-- Grid Items-->
+        <div class="row justify-content-center">
+            <!-- Item 0-->
+            <div class="col-md-12 col-lg-6 mb-5">
+                <div class="portfolio-item m-auto " data-bs-toggle="modal" data-bs-target="#portfolioModal0">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/bones/tibiaGrasshopperIntrallatice.png" alt="..." />
+                </div>
+            </div>
+            <!-- Portfolio Item 1-->
+            <div class="col-md-12 col-lg-6 mb-5 ">
+                <h5 class="px-4 text-justify fw-lighter p-5">
+                    To create a 3D printable bone scaffold, I started by researching the various 3D modelling tools available. Why did I choose Rhino 7? 
+                    Rhino7 has a parametric modelling plugin (Grasshopper) that lets you create 3D models by defining variable parameters such as pore size, wall thickness and so on. This makes it easier to experiment.
+                    Files are compatible with bioprinting.
+                    Compatible with a wide range of software and plug-ins. It can read and scan data from DICOM (Digital Imaging and Communication in Medicine) files.
+                    So I started by making scaffolds in simple boxes, in order to test conventional 3D printing and calibrate my parameters. Then, with the help of several YouTube tutorials and tibia analysis, I modelled a tibia into which I inserted my scaffold. 
+                    The first criticism of my project would be that without a support, it's very complicated to print complex cells to make a scaffold. What's more, despite having a powerful PC and some knowledge of rhino7, I was only able to create a very approximate tibia (only 400 polygons instead of the 25,000 or so found on this type of mesh). I also couldn't make a very accurate scaffold of my bone because rhino7 crashed every time I connected the tibia mesh to the scaffold made on GrassHopper. So, I think that modelling a bone scaffold is too complex for a simple machine, but with the right tools and the right method, I think it's achievable, especially as it's possible to carry out mechanical tests and simulations on the model in rhino7.
+                    To continue this project, it would be possible to run mechanical tests and simulations on the software, before running them on 3D parts. 
+                </h5>
+            </div>
+            <!-- Portfolio Item 2-->
+            <div class="col-md-12 col-lg-6 mb-5">
+                <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/bones/tibiaRhinoRendered.png" alt="..." />
+                </div>
+            </div>
+            <!-- Portfolio Item 3-->
+            <div class="col-md-12 col-lg-6 mb-5">
+                <div class="portfolio-item mx-auto text-center" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/bones/tibiaScaffoldTransparent.png" alt="..." />
+                </div>
+            </div>
+            
+    </div>
+    </div>
+
+
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            8 rue la Rochejaquelein, 
+                            <br />
+                            Saint-Germain en Laye
+                            <br>
+                            78100, France
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/TimotheePopescoDev"><i class="fa-brands fa-github"></i></a>
+
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/tp-engineer-designer/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/timothee.popesco.3"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        
+
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About Me</h4>
+                        <p class="lead mb-0">
+                            +33652889733 <br>
+                            timothee@popesco.com <br>
+                            President of the Leorugby association
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Timothée Popesco 2024</small></div>
+        </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script src="js/competence.js"></script>
+</body>
+</html>
