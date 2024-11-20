@@ -1,0 +1,173 @@
+Structure du dossier
+C:.
+>   .gitignore
+>   next-env.d.ts
+>   next.config.ts
+>   package-lock.json
+>   package.json
+>   README.md
+>   structure.txt
+>   tsconfig.json
+>   
++---.next
+>   > 
++---node_modules   
+>   >    [...]       
++---public
+>   +---assets
+>   >   +---css
+>   >   >       styles.css
+>   >   >       
+>   >   +---img
+>   >       >   cvtimotheePopesco.pdf
+>   >       >   logo.png
+>   >       >   ppCV.jpg
+>   >       >   smalllogo.png
+>   >       >   timotheePopescoCV.pdf
+>   >       >   timotheepopescocv2022.pdf
+>   >       >   
+>   >       +---autres
+>   >       >       file.svg
+>   >       >       globe.svg
+>   >       >       next.svg
+>   >       >       vercel.svg
+>   >       >       window.svg
+>   >       >       
+>   >       +---bones
+>   >       >       tibiaGrasshopperIntrallatice.png
+>   >       >       tibiaRhinoRendered.png
+>   >       >       tibiaScaffoldTransparent.png
+>   >       >       
+>   >       +---competences
+>   >       >   >   back-end.png
+>   >       >   >   design.png
+>   >       >   >   electronics.png
+>   >       >   >   fichesCompetencesCsharp.png
+>   >       >   >   fichesCompetencesDesign.png
+>   >       >   >   fichesCompetencesHtmlCss.png
+>   >       >   >   fichesCompetencesJS.png
+>   >       >   >   fichesCompetencesPhpSQL.png
+>   >       >   >   fichesCompetencesPy.png
+>   >       >   >   flutterdart.png
+>   >       >   >   front-end.png
+>   >       >   >   modelling.png
+>   >       >   >   
+>   >       >   +---useless
+>   >       >           fichesCompetencesCsharp.png
+>   >       >           fichesCompetencesHtmlCss.png
+>   >       >           fichesCompetencesJS.png
+>   >       >           fichesCompetencesPhpSQL.png
+>   >       >           fichesCompetencesPy.png
+>   >       >           flutterdart.png
+>   >       >           
+>   >       +---portfolio
+>   >           >   apisflutter.png
+>   >           >   automobiles.png
+>   >           >   crypto.png
+>   >           >   divali.mp4
+>   >           >   django.png
+>   >           >   flutter.png
+>   >           >   incubator.png
+>   >           >   kickStarter.png
+>   >           >   popShochs.png
+>   >           >   portfolioa1.png
+>   >           >   rendufinal.mp4
+>   >           >   scaffold.png
+>   >           >   todo.png
+>   >           >   
+>   >           +---crypto-wallet
+>   >           >   +---crypto-wallet
+>   >           >       >   index.html
+>   >           >       >   
+>   >           >       +---assets
+>   >           >       >   +---css
+>   >           >       >   >       custom.css
+>   >           >       >   >       
+>   >           >       >   +---img
+>   >           >       >           copy_trader.png
+>   >           >       >           crypto-wallet-hero-image.jpg
+>   >           >       >           wallet.jpg
+>   >           >       >           
+>   >           >       +---index_files
+>   >           >               all.min.css
+>   >           >               line-awesome.min.css
+>   >           >               lunevedy.js.t>l>chargement
+>   >           >               lunevedy.min.css
+>   >           >               
+>   >           +---hero-gallery
+>   >           >   >   index.html
+>   >           >   >   
+>   >           >   +---assets
+>   >           >       +---css
+>   >           >       >       custom.css
+>   >           >       >       lunadoge.min.css
+>   >           >       >       
+>   >           >       +---img
+>   >           >               analytics.png
+>   >           >               bike-tours.jpg
+>   >           >               duotone.jpg
+>   >           >               fashion.jpg
+>   >           >               hair.png
+>   >           >               javascript.png
+>   >           >               music.jpg
+>   >           >               ui-designer.jpg
+>   >           >               
+>   >           +---smooth-smoothies
+>   >           >   >   index.html
+>   >           >   >   
+>   >           >   +---assets
+>   >           >       +---css
+>   >           >       >       custom.css
+>   >           >       >       
+>   >           >       +---img
+>   >           >               apple.png
+>   >           >               blueberry.png
+>   >           >               lemon.png
+>   >           >               smoothies-hero-image.jpg
+>   >           >               watermelon.png
+>   >           >               
+>   >           +---snazzy-fashion
+>   >               >   index.html
+>   >               >   
+>   >               +---assets
+>   >                   +---css
+>   >                   >       custom.css
+>   >                   >       lunevedy.min.css
+>   >                   >       
+>   >                   +---img
+>   >                   >       footwear.jpg
+>   >                   >       hat.jpg
+>   >                   >       scarves.jpg
+>   >                   >       tee-shirts.jpg
+>   >                   >       
+>   >                   +---video
+>   >                           all.min.css
+>   >                           hero-still.jpg
+>   >                           hero-video.mp4
+>   >                           line-awesome.min.css
+>   >                           lunevedy.js.t>l>chargement
+>   >                           
+>   +---js
+>           competence.js
+>           scripts.js
+>           
++---src
+    +---components
+    >       About.tsx
+    >       Competences.tsx
+    >       Footer.tsx
+    >       Masthead.tsx
+    >       Modal.tsx
+    >       Navbar.tsx
+    >       Portfolio.tsx
+    >       PortfolioModals.tsx
+    >       
+    +---pages
+    >       bones.tsx
+    >       helmet.tsx
+    >       index.tsx
+    >       _app.tsx
+    >       
+    +---styles
+            globals.css
+            

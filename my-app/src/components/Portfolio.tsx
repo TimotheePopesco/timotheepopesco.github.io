@@ -35,6 +35,7 @@ export default function Portfolio() {
           My project is intended to be implemented using low-tech solutions. 
           I plan to incorporate piezoelectric sensors with an ESP32 Beetle and utilize conductive foam for the helmet. 
           I've only recently begun my research, and I'll keep you updated on my progress at the conclusion of writing my report.
+          To find out more, <Link href="/helmet"> Click here</Link>.
         </p>
     },
     {
